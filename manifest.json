@@ -1,0 +1,328 @@
+{
+  "source": "https://huggingface.co/datasets/FronkonGames/steam-games-dataset",
+  "revision": "ba4e26785af33bee500e96597068c6e77f4edea9",
+  "parquet_sha256": "775b17f2a5a52b96a8441739cd0dd4939916335b6edeebbfc4a1b238388c5a77",
+  "source_rows": 124146,
+  "selected_rows": 26412,
+  "selection": "price == 0; not a guarantee of currently available free games",
+  "files": [
+    {
+      "path": "data/games-0000.json",
+      "rows": 500,
+      "bytes": 2548382,
+      "sha256": "d435dfd1416e4afe35afc9e1e67fa2755ac6ab1c53b948b1aaf8d94ef539e667"
+    },
+    {
+      "path": "data/games-0001.json",
+      "rows": 500,
+      "bytes": 2189388,
+      "sha256": "c9026e1d0310e1803d88c6ebc4cefbc8b3f661a19632ca6eee489bac445457c7"
+    },
+    {
+      "path": "data/games-0002.json",
+      "rows": 500,
+      "bytes": 2068461,
+      "sha256": "cd1ad37bc92710ba5c1e1c606e7aaa26376d4bf832483fae1837870744f3486c"
+    },
+    {
+      "path": "data/games-0003.json",
+      "rows": 500,
+      "bytes": 2019663,
+      "sha256": "72f1c87a77495696d090cc87df0732a8cd28438a60bb6a26b684753605636f44"
+    },
+    {
+      "path": "data/games-0004.json",
+      "rows": 500,
+      "bytes": 2028619,
+      "sha256": "5b2d66cd867c20c14485625bf5e2e50a8956e8db082ba1108cba22792f3a5711"
+    },
+    {
+      "path": "data/games-0005.json",
+      "rows": 500,
+      "bytes": 1945629,
+      "sha256": "eb0dff4b8ad96229de14ba1282123bf7fc2482032cf503daf3f72de3447f110a"
+    },
+    {
+      "path": "data/games-0006.json",
+      "rows": 500,
+      "bytes": 1900244,
+      "sha256": "cb8fb84bc5fe0ccd223ff7e8d9404cf920f95219a27f4fa5689f1a863c26b6bc"
+    },
+    {
+      "path": "data/games-0007.json",
+      "rows": 500,
+      "bytes": 1895816,
+      "sha256": "213aa11ac7cbfa364a7300b1f8264122b535b087d247fa7351ccddf8d3712eb5"
+    },
+    {
+      "path": "data/games-0008.json",
+      "rows": 500,
+      "bytes": 1809120,
+      "sha256": "36a1dcd23aab86f04e1487a85902f8385ae4f4fd5f30bb76b8235d075d3fb25e"
+    },
+    {
+      "path": "data/games-0009.json",
+      "rows": 500,
+      "bytes": 1905127,
+      "sha256": "8ccde1b3673c6a1add7914d5c28282ef5ee4c3bd2ea0a95ab89b0c40777f1742"
+    },
+    {
+      "path": "data/games-0010.json",
+      "rows": 500,
+      "bytes": 1888511,
+      "sha256": "3b8d7142541cb08cceb808c4140aa859dafb6fb353e1ec1c62afb30925fa25be"
+    },
+    {
+      "path": "data/games-0011.json",
+      "rows": 500,
+      "bytes": 1926932,
+      "sha256": "e012934e97cf3fbe9ad353ccacc7224ad10505b854b5eca866e002862fd20b6c"
+    },
+    {
+      "path": "data/games-0012.json",
+      "rows": 500,
+      "bytes": 1880225,
+      "sha256": "2dd5994809f6be8be6f2d1961acc8317e093a44fe2ace50c28fbce1031ab9df9"
+    },
+    {
+      "path": "data/games-0013.json",
+      "rows": 500,
+      "bytes": 1624607,
+      "sha256": "96565258fa63f497c12c40719767412962ddca142e6fa2c852e741a02b53d030"
+    },
+    {
+      "path": "data/games-0014.json",
+      "rows": 500,
+      "bytes": 1737356,
+      "sha256": "0296f1941087489a45c561da5b7b7d600546c60adbfde40da1d9d77e3fe6b508"
+    },
+    {
+      "path": "data/games-0015.json",
+      "rows": 500,
+      "bytes": 1262880,
+      "sha256": "5a3416e2fb4028f1f714748312e13354f272b248bd1e832eb76fc104ad4cff24"
+    },
+    {
+      "path": "data/games-0016.json",
+      "rows": 500,
+      "bytes": 1368766,
+      "sha256": "d496194f907bd4946e89aff03479f54656b2ceb058ffb9ea68e7248124575062"
+    },
+    {
+      "path": "data/games-0017.json",
+      "rows": 500,
+      "bytes": 1416714,
+      "sha256": "882aaf34e658a00a4ed4a3185dcb78493fce861d1b5cfcd1d48031070af78ee9"
+    },
+    {
+      "path": "data/games-0018.json",
+      "rows": 500,
+      "bytes": 1402546,
+      "sha256": "1b8569776196ee20b7a8034e8be8cf576d092629846771bfd7a99bed047ac473"
+    },
+    {
+      "path": "data/games-0019.json",
+      "rows": 500,
+      "bytes": 1388571,
+      "sha256": "69c88dcfa7b65e468391ac9eac13c2bcc3b8e5867537c66e744864be93d29b47"
+    },
+    {
+      "path": "data/games-0020.json",
+      "rows": 500,
+      "bytes": 1431396,
+      "sha256": "2b13df9656b51928c6d5527ee040957fe24a6c26dc71945fbbeb12aeb21494f3"
+    },
+    {
+      "path": "data/games-0021.json",
+      "rows": 500,
+      "bytes": 1433854,
+      "sha256": "7b332fa6c66ac622e2ca1722b7b0f114a3ce3f2c1d061bdba2030f690bec352d"
+    },
+    {
+      "path": "data/games-0022.json",
+      "rows": 500,
+      "bytes": 1394238,
+      "sha256": "7464d55eb632b73be4245548d9adc80999b277c6142454b5786212b6420bee99"
+    },
+    {
+      "path": "data/games-0023.json",
+      "rows": 500,
+      "bytes": 1359901,
+      "sha256": "f510250d9ecc618d20de21e6fb54a93e9ac11abf62d237fae2219a04ac2d625a"
+    },
+    {
+      "path": "data/games-0024.json",
+      "rows": 500,
+      "bytes": 1402230,
+      "sha256": "7212fca868ab15315972fada3f553dc5191269d4368ac6aed0e9c7a0db363316"
+    },
+    {
+      "path": "data/games-0025.json",
+      "rows": 500,
+      "bytes": 1393136,
+      "sha256": "3dee145ab097bd0be74c6dede841872c94ad93d504dd8a68967078d9c013cd6b"
+    },
+    {
+      "path": "data/games-0026.json",
+      "rows": 500,
+      "bytes": 1404023,
+      "sha256": "621ceeb1944a9b53ef277b2ec46a3b7bdfea4a5984d16d535b2907cb78ddc516"
+    },
+    {
+      "path": "data/games-0027.json",
+      "rows": 500,
+      "bytes": 1342731,
+      "sha256": "54654822691fd3a97898cae809fed71e656007fde98199c164b21366afa8c54b"
+    },
+    {
+      "path": "data/games-0028.json",
+      "rows": 500,
+      "bytes": 1371210,
+      "sha256": "94e184ccc9821c4a0c4ea13ab227c480b642d913315e2e7e22c17ede42d40683"
+    },
+    {
+      "path": "data/games-0029.json",
+      "rows": 500,
+      "bytes": 1341347,
+      "sha256": "5dcdfde402c2e0ca16e61e1f8b9b1f007bfaaa70d50d76be969bf4fc7215fef0"
+    },
+    {
+      "path": "data/games-0030.json",
+      "rows": 500,
+      "bytes": 1330551,
+      "sha256": "1422e94ff2cfc83e1c56ab562383d625871ba226e2e295dc1d185994a7700ea2"
+    },
+    {
+      "path": "data/games-0031.json",
+      "rows": 500,
+      "bytes": 1342122,
+      "sha256": "cae966b66aa2792f156ad584e7a96ab5512cd8d9f0fa4e85b2916cc5b2291477"
+    },
+    {
+      "path": "data/games-0032.json",
+      "rows": 500,
+      "bytes": 1365077,
+      "sha256": "4430c2d310d3dfc298d969a61eb3a7b84fb4a2a044056910ee6b45a725590ed1"
+    },
+    {
+      "path": "data/games-0033.json",
+      "rows": 500,
+      "bytes": 1415370,
+      "sha256": "885690d08f22fe877549a76936a59f386f1c99b8fc0e78a95cd0822327abc2fb"
+    },
+    {
+      "path": "data/games-0034.json",
+      "rows": 500,
+      "bytes": 1338722,
+      "sha256": "136a99e234036ed238a51c4714e03279797905e0540457d3f4523b562ab818e7"
+    },
+    {
+      "path": "data/games-0035.json",
+      "rows": 500,
+      "bytes": 1303849,
+      "sha256": "28f8bdc634d148cafb43cd3652294565bca2f98aac5b63837e9c51c0efca68c8"
+    },
+    {
+      "path": "data/games-0036.json",
+      "rows": 500,
+      "bytes": 1372916,
+      "sha256": "ea3a8b9a3635163ef8402d9e34553bb72a970a1bfe7c1e7a39cc0b20cc80f2c7"
+    },
+    {
+      "path": "data/games-0037.json",
+      "rows": 500,
+      "bytes": 1396181,
+      "sha256": "656e682cf5d44860277109e23435e96340b9936935caa6e9945e20c6b9e95436"
+    },
+    {
+      "path": "data/games-0038.json",
+      "rows": 500,
+      "bytes": 1315049,
+      "sha256": "7e978c665fdbb1e0876d1e40534727e06e518965ae063e9c7c4bc2e4b4ef1051"
+    },
+    {
+      "path": "data/games-0039.json",
+      "rows": 500,
+      "bytes": 1314558,
+      "sha256": "5691688d583fe8a8224ede714c9e4d452271e98af8c390234e89ccd4e0471136"
+    },
+    {
+      "path": "data/games-0040.json",
+      "rows": 500,
+      "bytes": 1240759,
+      "sha256": "1250411de3b65cc1d64816c34eca5b37d587ead1332cdc18b3f26be3408cdc45"
+    },
+    {
+      "path": "data/games-0041.json",
+      "rows": 500,
+      "bytes": 1221973,
+      "sha256": "9116cba6768d080e614ea8b29729651468e70429ee913be64656464d23505352"
+    },
+    {
+      "path": "data/games-0042.json",
+      "rows": 500,
+      "bytes": 1111649,
+      "sha256": "366efb37565d468f5bb7d52a71aa65848974ac91a95a96ca1f1215d5cde3422a"
+    },
+    {
+      "path": "data/games-0043.json",
+      "rows": 500,
+      "bytes": 1196760,
+      "sha256": "7ea512d88ff10e88a936ec4a2208bea4c76225d7530dd311654c9dc394ba93dc"
+    },
+    {
+      "path": "data/games-0044.json",
+      "rows": 500,
+      "bytes": 1148161,
+      "sha256": "1d967dac7bdd69c4e2db54622434f4eec5457efc670d40c2bcea20f6f823e64c"
+    },
+    {
+      "path": "data/games-0045.json",
+      "rows": 500,
+      "bytes": 1174192,
+      "sha256": "8aa9cec6d102e91a82224441d7946060711e51f1114f63f04f40a76c1e29f659"
+    },
+    {
+      "path": "data/games-0046.json",
+      "rows": 500,
+      "bytes": 1237814,
+      "sha256": "4732cff0ce54827d8d4fef177530bb3aa00775724823b8a6ff17c06b6ee43895"
+    },
+    {
+      "path": "data/games-0047.json",
+      "rows": 500,
+      "bytes": 1133523,
+      "sha256": "c4b9aadb0b2ce9c2cab3ac1a3de8b5654869e5d3cb3c601e9bfc0d0a89b70753"
+    },
+    {
+      "path": "data/games-0048.json",
+      "rows": 500,
+      "bytes": 1193233,
+      "sha256": "724bdd19a339eaf17d8bfde395a8e7417deb28d6324894c2964bb8b4ea985184"
+    },
+    {
+      "path": "data/games-0049.json",
+      "rows": 500,
+      "bytes": 1124814,
+      "sha256": "d895e773d9b4707c76c83ccfa5aac91dc32f4e14232248e85eaa68b94c48b855"
+    },
+    {
+      "path": "data/games-0050.json",
+      "rows": 500,
+      "bytes": 1040767,
+      "sha256": "b9c11ee2a73c5f552fd285cef9e0fb1f89979a3ef97e74656e1b507e84936b8c"
+    },
+    {
+      "path": "data/games-0051.json",
+      "rows": 500,
+      "bytes": 1014735,
+      "sha256": "2da32297f082c0d31528f30c9e6f303405ce160ecc0e4dfca590d81a673e211e"
+    },
+    {
+      "path": "data/games-0052.json",
+      "rows": 412,
+      "bytes": 1229565,
+      "sha256": "b5eccbe8a73a584a526a7e2ed9c4790a11c07450c31d603000773bf17aa12c70"
+    }
+  ]
+}
