@@ -1,0 +1,9 @@
+{
+  "schema": "mojipixel.prior-mirror.v1",
+  "runId": "b2465797-d7e5-5773-ba0d-de234bd5b276",
+  "games": 14872,
+  "sourceSha256": "985d8482d025068b1f6d4518ce442ba3b252651e2a338f74462d481c83961407",
+  "file": "prior-b2465797.parquet",
+  "bytes": 23992411,
+  "sha256": "ef3796abf3e1a2a60c1dd224a677f1a760a8f113784fca317ff22ca38ac84ae5"
+}
